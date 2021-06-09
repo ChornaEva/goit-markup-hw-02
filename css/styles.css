@@ -35,6 +35,7 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
+
 .logo {
   color: #2196f3;
 }
@@ -68,11 +69,11 @@ body {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .contacts-list .contacts-link:hover,
 .contacts-list .contacts-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* тело страницы ***************************************/
@@ -101,7 +102,7 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background: #2196f3;
+  background: var(--accent-color);
 }
 
 /* секция преимущества **********************************/
@@ -145,23 +146,13 @@ body {
 }
 
 .footer-adress {
-  font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: #ffffff;
 }
 
 .footer-mail,
 .footer-tel {
-  font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -173,14 +164,48 @@ body {
 
 .footer-adress:hover,
 .footer-adress:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .footer-mail:hover,
 .footer-mail:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .footer-tel:hover,
 .footer-tel:focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+/* POTFOLIO********************************************************************* */
+.portfolio {
+  background-color: #e5e5e5;
+}
+
+.filter-button {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background: var(--accent-color);
+  color: #ffffff;
+}
+.type-title {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.type-text {
+  font-size: 16px;
+  line-height: 1.8;
 }
