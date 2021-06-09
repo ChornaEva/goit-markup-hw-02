@@ -37,7 +37,7 @@ body {
 }
 
 .logo {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .logo-white {
   color: #ffffff;
