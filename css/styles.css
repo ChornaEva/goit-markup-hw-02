@@ -23,6 +23,9 @@ body {
 .header {
   background-color: #ffffff;
 }
+.nav-link.current {
+  color: var(--accent-color);
+}
 
 /* лого ***************************************************/
 .logo,
@@ -95,10 +98,9 @@ body {
   color: #ffffff;
 }
 .baner-button {
+  font-family: inherit;
   font-weight: bold;
-  width: 200px;
-  height: 50px;
-  font: size 16px;
+  font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: #ffffff;
@@ -176,12 +178,9 @@ body {
   color: var(--accent-color);
 }
 /* POTFOLIO********************************************************************* */
-.portfolio {
-  background-color: #e5e5e5;
-}
 
 .filter-button {
-  font-family: Roboto, sans-serif;
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
