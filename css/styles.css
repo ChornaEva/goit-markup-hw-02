@@ -28,8 +28,6 @@ body {
   padding-right: 15px;
   padding-left: 15px;
   margin: 0px auto;
-
-  border: solid 1.5px tomato;
 }
 
 .section {
@@ -204,6 +202,9 @@ body {
 
 .advantages-item:not(:first-child) {
   margin-left: 30px;
+}
+.advantages-item {
+  width: 270px;
 }
 /* чем мы занимаемся************************************ */
 
